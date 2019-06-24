@@ -13,6 +13,13 @@ Open up http://localhost:4000
 
 ## Angular Universal Static Pre-Rendering
 
+> Before you begin:
+
+- Switch branches `git checkout feat/prerender`
+- `npm install`
+
+Generate/pre-render static routes, and test/demo locally via http-server (for demo purposes)
+
 ```
-npm run build:prerender
+npm run build:prerender && npm run serve:prerender
 ```
