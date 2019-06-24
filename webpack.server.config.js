@@ -8,6 +8,7 @@ module.exports = {
   entry: {
     // This is our Express server for Dynamic universal
     server: './server.ts',
+    // This is to generate our Prerender script
     prerender: './prerender.ts'
   },
   target: 'node',

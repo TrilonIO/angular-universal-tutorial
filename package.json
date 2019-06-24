@@ -12,8 +12,7 @@
     "serve:ssr": "node dist/server",
     "build:ssr": "npm run build:client-and-server-bundles && npm run compile:server",
     "build:client-and-server-bundles": "ng build --prod && ng run angular-universal-tutorial:server:production",
-    "build:prerender": "npm run build:ssr && npm run generate:prerender",
-    "generate:prerender": "cd dist && node prerender"
+    "build:prerender": "npm run build:ssr && cd dist && node prerender"
   },
   "private": true,
   "dependencies": {
